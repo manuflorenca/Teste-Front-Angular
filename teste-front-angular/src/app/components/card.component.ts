@@ -1,13 +1,12 @@
-import { Component, Input } from '@angular/core';
-
+import { Component } from "@angular/core";
 
 @Component({
-    selector: 'card',
-    templateUrl: './card.component.html',
-    styleUrls: ['./card.component.css'],
+    selector: 'search-button',
+    templateUrl: './button.component.html',
+    styleUrls: ['./button.component.css'],
 
 })
 
-export class Card {
-    @Input() imageUrl: string = 'assets/img_covid.jpg';
+export class Button {
+
 }
